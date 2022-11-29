@@ -1,0 +1,49 @@
+body {
+margin:0;
+text-align: center;
+font-family: 'Merriweather', serif;
+}
+/* text align center inside container or parent element
+will center everything inside that doesnt have a width set
+if it does have a width set like h1 you have to use auto
+top 0 left auto bottom 0 right auto
+
+can be shortened to 0 auto; */
+
+h1 {
+margin-top: 0;
+Font-family: 'Sacramento', cursive;
+}
+
+h2 {
+font-family: 'Monteserrat' , sans-serif;
+
+}
+
+h3{
+  font-family: 'Monteserrat' , sans-serif;
+
+}
+.top {
+background-color: #e4f9f5;
+position: relative;
+padding-top: 100px;
+}
+
+
+.new{
+    text-decoration: underline;
+}
+
+.bottom-cloud {
+position: absolute;
+left: 300px;
+bottom: 300px;
+
+}
+
+.top-cloud{
+position: absolute;
+right: 300px;
+top: 50px;
+}
